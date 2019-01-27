@@ -5,8 +5,7 @@ import rospy
 from std_msgs.msg import String
 
 
-if __name__ == '__main__':
-
+def load_yaml():
     with open("../config/params.yaml", 'r') as stream:
         try:
             params_content = yaml.load(stream)
@@ -18,3 +17,7 @@ if __name__ == '__main__':
 
         except yaml.YAMLError as exc:
             print(exc)
+
+
+if __name__ == '__main__':
+    load_yaml()

@@ -8,6 +8,10 @@
 class OneCl{
 
 private:
+
+    ros::NodeHandle _nh;
+    ros::Publisher _pub;
+
 protected:
 public:
 

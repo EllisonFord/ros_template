@@ -5,6 +5,14 @@
 #ifndef ROS_TEMPLATE_INCLUDE_H
 #define ROS_TEMPLATE_INCLUDE_H
 
+// SYS
+#include <iostream>
+// ROS
+#include "ros/ros.h"
+#include "std_msgs/String.h"
+// USER
+//
+
 class OneCl{
 
 private:

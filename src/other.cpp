@@ -2,8 +2,7 @@
 // Created by sam on 27/01/19.
 //
 
-#import "main.cpp"
-#import "include.h"
+#include "include.h"
 
 
 void OneCl::method1() {

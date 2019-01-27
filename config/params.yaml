@@ -1,0 +1,4 @@
+results_topic: "/results"
+text_topic: "/topic"
+rgb_topic: "/camera/raw/rgb"
+project_namespace: "robot"
